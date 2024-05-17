@@ -19,6 +19,7 @@ const createEvent = async (body) => {
 	}
 }
 
+// CallApi get eventtype list function
 const getEventTypes = async () => {
 	try {
 		const res = await fetch(`${ApiPath.GET_EVENT_TYPE}`, {
