@@ -1,5 +1,6 @@
 import { ApiPath, token } from "../api/apiPath.js";
 
+// CallApi create event function
 const createEvent = async (body) => {
 	try {
 		const res = await fetch(`${ApiPath.CREATE_EVENT}`, {
